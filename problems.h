@@ -6,7 +6,8 @@ void days2years(int &days, int &years) {
 }
 // Problem 2
 double func(double *x,double *y) {
-    
+    *y=(11**x**x**x)/ 3 +5;
+    return *y;
 }
 
 
