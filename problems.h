@@ -23,6 +23,10 @@ double probability(int *y,int *w) {
 
 // Problem 5
 int presses(int *x) {
-    
+    int n = *x;
+    string s = to_string(n);
+    int sz = s.length();
+    int b = n%10;
+    return 10*(b-1) + sz*(sz+1)/2;
 }
 
